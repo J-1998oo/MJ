@@ -1,0 +1,12 @@
+div {
+  font-size: 50px;
+  color: blue;
+}
+#div-1 {
+  color: darkmagenta;
+  background-color: #123456;
+}
+.div-class {
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+}

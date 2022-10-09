@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HM_4</title>
+  </head>
+
+  <body style="margin: 1">
+    <form>
+      <div>
+        <label for="userName">User name</label>
+        <input
+          type="text"
+          placeholder="Name"
+          id="userName"
+          name="userName"
+          maxlength="20"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="eMail">E-mail</label>
+        <input
+          type="email"
+          name="eMail"
+          id="eMail"
+          placeholder="enter your gmail"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="date">berthday</label>
+        <input type="date" name="date" id="date" />
+      </div>
+      <br />
+      <div>
+        <label for="dateTime">Registration datetime</label>
+        <input type="datetime-local" id="dateTime" />
+      </div>
+      <br />
+      <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="0" />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          minlength="8"
+          placeholder="password"
+          id="password"
+          name="password"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="file">Upload profile picture </label>
+        <input type="file" name="file" id="file" accept="image/*" />
+      </div>
+      <br />
+      <div>
+        <label for="courses">Courses</label>
+        <br />
+        <input type="checkbox" name="courses" id="courses" value="Css" />
+        <label for="courses">Css</label>
+        <input type="checkbox" name="courses" id="courses" value="Html" />
+        <label for="courses">Html</label>
+        <input type="checkbox" name="courses" id="courses" value="Javascript" />
+        <label for="courses">Javascript</label>
+      </div>
+      <br />
+      <div>
+        <label for="ginder">Ginder</label><br />
+        <input type="radio" name="ginder" id="ginder" value="male" />
+        <label for="ginder">Male</label>
+        <input type="radio" name="ginder" id="ginder" value="female" />
+        <label for="ginder">female</label>
+      </div>
+      <br />
+      <div>
+        <label for="slctWeb"> Web list </label>
+        <br />
+        <select name="slctWeb" id="slctWeb">
+          <option disabled selected>--Select one --</option>
+          <optgroup label="Frontend">
+            <option value="html">Html</option>
+            <option value="css">Css</option>
+            <option value="javascript">Javascript</option>
+          </optgroup>
+          <optgroup label="Backend">
+            <option value="c#">C#</option>
+            <option value="java">Java</option>
+            <option value=".net">.Net</option>
+          </optgroup>
+        </select>
+      </div>
+      <br />
+      <div>
+        <textarea placeholder="note" style="width:100% ;" rows="12"></textarea>
+      </div>
+      <br />
+      <div>
+        <a href="https://web.facebook.com/">FaceBook</a>
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Sign up" formtarget="_blank" />
+        <input type="reset" value="Reset" />
+      </div>
+    </form>
+  </body>
+</html>

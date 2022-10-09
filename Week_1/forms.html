@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <style>
+      .s {
+        height: 100vh;
+      }
+    </style>
+    <script>
+      function f1() {
+        alert("hello");
+      }
+    </script>
+  </head>
+
+  <body style="margin: 0">
+    <br />
+    <form action="">
+      <br />
+
+      <div>
+        <label for="userName">User name</label>
+        <input type="text" placeholder="Name" id="userName" name="userName" />
+      </div>
+      <br />
+
+      <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" max="99" />
+      </div>
+      <br />
+
+      <div>
+        <label for="eMail">E-mail</label>
+        <input
+          type="email"
+          name="eMail"
+          id="eMail"
+          placeholder="enter your gmail"
+        />
+      </div>
+      <br />
+
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          minlength="8"
+          placeholder="password"
+          id="password"
+          name="password"
+        />
+      </div>
+      <br />
+
+      <div>
+        <input type="checkbox" id="checkBox" />
+        <label for="checkBox">Accept All</label>
+      </div>
+      <br />
+
+      <div>
+        <label for="file" style="cursor: pointer; border: 10px groove #555555"
+          >Upload File</label
+        >
+        <input type="file" name="file" id="file" style="display: none" />
+      </div>
+      <br />
+
+      <div>
+        <input type="radio" name="ginder" id="ginder" value="male" />
+        <label for="ginder">Male</label>
+        <input type="radio" name="ginder" id="ginder" value="female" />
+        <label for="ginder">female</label>
+      </div>
+      <br />
+
+      <div>
+        <label for="date">berthday</label>
+        <input type="date" name="date" id="date" />
+      </div>
+      <br />
+      <div>
+        <label for="slctWeb"> 
+          Web list
+        </label>
+        <select name="slctWeb" id="slctWeb">
+          <option disabled selected >
+             --Select one --
+            </option>
+          <optgroup label="Frontend">
+            <option value="html">Html</option>
+            <option value="css">Css</option>
+            <option value="javascript">Javascript</option>
+          </optgroup>
+          <optgroup label="Backend" >
+            <option value="c#">C#</option>
+            <option value="java">Java</option>
+            <option value=".net">.Net</option>
+
+          </optgroup>
+        </select>
+      </div>
+      <br />
+
+      <div>
+        <input type="color" name="color" id="color" />
+        <input type="button" value="ok" onclick="f1()" />
+      </div>
+      <br />
+
+      <div>
+        <input type="submit" value="Sign in" />
+        <input type="reset" value="Clere" />
+      </div>
+      <br />
+
+      <div>
+        <textarea placeholder="note" cols="12" rows="30"></textarea>
+        <a href="https://www.w3schools.com/" target="_blank">w3schools</a>
+      </div>
+      <br />
+    </form>
+    <a href="#s1">section 1</a> <br />
+    <br />
+
+    <a href="#s2">section 2</a> <br />
+    <br />
+
+    <a href="#s3">section 3</a> <br />
+    <br />
+
+    <a href="#s4">section 4</a> <br />
+    <br />
+
+    <section id="s1" class="s">section 1</section>
+    <section id="s2" class="s">section 2</section>
+    <section id="s3" class="s">section 3</section>
+    <section id="s4" class="s">section 4</section>
+  </body>
+</html>
