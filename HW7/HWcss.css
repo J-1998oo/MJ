@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+.layout {
+  display: flex;
+}
+nav{
+    float: left;
+    width: 30%;
+    height: 90vh;
+    background-color: #ccc;
+    padding: top 20px; ;
+    font-size: 25px;
+    flex-direction: column;
+
+}
+.sideNav {
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: rgb(61, 59, 59);
+  height: 90vh;
+
+}
+.sideNav nav {
+  width: 100px;
+  height: 90vh;
+  overflow: auto;
+  overflow-y: hidden;
+}
+nav ul{
+    list-style-type: none;
+    
+    }
+nav a {
+  text-decoration: none;
+
+}
+.row {
+  margin: 20px;
+  flex-direction: column;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color:rgb(41, 39, 39);
+}
