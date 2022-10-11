@@ -1,53 +1,44 @@
-body {
+body{
   margin: 0;
-  height: 100vh;
 }
-.layout {
+.layout{
   display: flex;
+  flex-direction: row;
 }
-nav{
-    float: left;
-    width: 30%;
-    height: 90vh;
-    background-color: #ccc;
-    padding: top 20px; ;
-    font-size: 25px;
-    flex-direction: column;
-
-}
-.sideNav {
-  padding-left: 5px;
-  padding-right: 5px;
-  background-color: rgb(61, 59, 59);
-  height: 90vh;
-
-}
-.sideNav nav {
-  width: 100px;
-  height: 90vh;
-  overflow: auto;
-  overflow-y: hidden;
-}
-nav ul{
-    list-style-type: none;
-    
-    }
-nav a {
-  text-decoration: none;
-
-}
-.row {
-  margin: 20px;
-  flex-direction: column;
-}
-.column {
-  float: left;
-  width: 25%;
-  padding: 20px;
-}
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
+.layout > .side-nav{
+  padding: 20px ;
+  background-color: rgb(100 , 100, 100);
+  height: calc(100vh - 40px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 30%;
+  max-width: 200px;
   text-align: center;
-  background-color:rgb(41, 39, 39);
+}
+.layout > .side-nav >nav{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.layout > .side-nav > nav > a{
+  text-decoration: none;
+  font-size: 25px;
+}
+.contant{
+  padding: 20px;
+  width: 60%;
+  height: calc(100vh - 40px);
+  overflow: auto;
+}
+.card-section{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 12px;
+}
+.card-section > .card{
+  background-color: rgb(150, 150, 150);
+  width: calc(25% - 40px);
+  height: 25vh;
+  text-align: center;
 }
