@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+.perant {
+  display: flex;
+  flex-direction: row;
+  max-width: 800vw;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.dad {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding:8px;
+  border: 1px solid rgb(0, 255, 0);
+}
+.chiled {
+  width: 100px;
+  gap: 20px;
+  border: 1px solid rgb(255, 0, 0);
+}
+.f1 {
+  flex: 1 1 150px;
+}
+.f2 {
+  flex: 2 1 150px;
+}
+.f3 {
+  flex: 3 1 150px;
+}
