@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+p:first-child:hover{
+    background-color: red;
+}
+p:nth-child(2):hover{
+    background-color: blue;
+}
+@media(max-width:400px){
+    body{
+        background-color: gray;
+    }
+}
