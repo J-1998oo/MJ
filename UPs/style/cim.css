@@ -1,0 +1,142 @@
+
+  .table{
+      display: grid;
+      gap: 2px 5px;
+      grid-template-columns: repeat(18,50px);
+      grid-template-rows: repeat(9,50px);
+      grid-template-areas: 
+      " e1 . . . . . . . . . . . . . . . . e2 "
+      " e3 e4 . . . . . . . . . . e120 e119 e118 e117 e5 e6 "
+      " e7 e8 . . . . . . . . . . e116 e115 e114 e113 e9 e10 "
+      " e11 e12 e13 e14 e15 e16 e17 e18 e19 e20 e21 e22 e23 e24 e25 e26 e27 e28 "
+      " e29 e30 e31 e32 e33 e34 e35 e36 e37 e38 e39 e40 e41 e42 e43 e44 e45 e46 "
+      " e47 e48 e49 e50 e51 e52 e53 e54 e55 e56 e57 e58 e59 e60 e61 e62 e63 e64 "
+      " e65 e66 e67 e68 e69 e70 e71 e72 e73 e74 e75 e76 e77 e78 e79 e80 e81 e82 "
+      " . . . e83 e84 e85 e86 e87 e88 e89 e90 e91 e92 e93 e94 e95 e96 e97 "
+      " . . . e98 e99 e100 e101 e102 e103 e104 e105 e106 e107 e108 e109 e110 e111 e112 "
+      ;
+  }
+  .s{
+    border: 1px solid black;
+  } 
+  .elemant1{grid-area: e1;}
+  .elemant2{grid-area: e2;}
+  .elemant3{grid-area: e3;}
+  .elemant4{grid-area: e4;}
+  .elemant5{grid-area: e5;}
+  .elemant6{grid-area: e6;}
+  .elemant7{grid-area: e7;}
+  .elemant8{grid-area: e8;}
+  .elemant9{grid-area: e9;}
+  .elemant10{grid-area: e10;}
+  .elemant11{grid-area: e11;}
+  .elemant12{grid-area: e12;}
+  .elemant13{grid-area: e13;}
+  .elemant14{grid-area: e14;}
+  .elemant15{grid-area: e15;}
+  .elemant16{grid-area: e16;}
+  .elemant17{grid-area: e17;}
+  .elemant18{grid-area: e18;}
+  .elemant19{grid-area: e19;}
+  .elemant20{grid-area: e20;}
+  .elemant21{grid-area: e21;}
+  .elemant22{grid-area: e22;}
+  .elemant23{grid-area: e23;}
+  .elemant24{grid-area: e24;}
+  .elemant25{grid-area: e25;}
+  .elemant26{grid-area: e26;}
+  .elemant27{grid-area: e27;}
+  .elemant28{grid-area: e28;}
+  .elemant29{grid-area: e29;}
+  .elemant30{grid-area: e30;}
+  .elemant31{grid-area: e31;}
+  .elemant32{grid-area: e32;}
+  .elemant33{grid-area: e33;}
+  .elemant34{grid-area: e34;}
+  .elemant35{grid-area: e35;}
+  .elemant36{grid-area: e36;}
+  .elemant37{grid-area: e37;}
+  .elemant38{grid-area: e38;}
+  .elemant39{grid-area: e39;}
+  .elemant40{grid-area: e40;}
+  .elemant41{grid-area: e41;}
+  .elemant42{grid-area: e42;}
+  .elemant43{grid-area: e43;}
+  .elemant44{grid-area: e44;}
+  .elemant45{grid-area: e45;}
+  .elemant46{grid-area: e46;}
+  .elemant47{grid-area: e47;}
+  .elemant48{grid-area: e48;}
+  .elemant49{grid-area: e49;}
+  .elemant50{grid-area: e50;}
+  .elemant51{grid-area: e51;}
+  .elemant52{grid-area: e52;}
+  .elemant53{grid-area: e53;}
+  .elemant54{grid-area: e54;}
+  .elemant55{grid-area: e55;}
+  .elemant56{grid-area: e56;}
+  .elemant57{grid-area: e57;}
+  .elemant58{grid-area: e58;}
+  .elemant59{grid-area: e59;}
+  .elemant60{grid-area: e60;}
+  .elemant61{grid-area: e61;}
+  .elemant62{grid-area: e62;}
+  .elemant63{grid-area: e63;}
+  .elemant64{grid-area: e64;}
+  .elemant65{grid-area: e65;}
+  .elemant66{grid-area: e66;}
+  .elemant67{grid-area: e67;}
+  .elemant68{grid-area: e68;}
+  .elemant69{grid-area: e69;}
+  .elemant70{grid-area: e70;}
+  .elemant71{grid-area: e71;}
+  .elemant72{grid-area: e72;}
+  .elemant73{grid-area: e73;}
+  .elemant74{grid-area: e74;}
+  .elemant75{grid-area: e75;}
+  .elemant76{grid-area: e76;}
+  .elemant77{grid-area: e77;}
+  .elemant78{grid-area: e78;}
+  .elemant79{grid-area: e79;}
+  .elemant80{grid-area: e80;}
+  .elemant81{grid-area: e81;}
+  .elemant82{grid-area: e82;}
+  .elemant83{grid-area: e83;}
+  .elemant84{grid-area: e84;}
+  .elemant85{grid-area: e85;}
+  .elemant86{grid-area: e86;}
+  .elemant87{grid-area: e87;}
+  .elemant88{grid-area: e88;}
+  .elemant89{grid-area: e89;}
+  .elemant90{grid-area: e90;}
+  .elemant91{grid-area: e91;}
+  .elemant92{grid-area: e92;}
+  .elemant93{grid-area: e93;}
+  .elemant94{grid-area: e94;}
+  .elemant95{grid-area: e95;}
+  .elemant96{grid-area: e96;}
+  .elemant97{grid-area: e97;}
+  .elemant98{grid-area: e98;}
+  .elemant99{grid-area: e99;}
+  .elemant100{grid-area: e100;}
+  .elemant101{grid-area: e101;}
+  .elemant102{grid-area: e102;}
+  .elemant103{grid-area: e103;}
+  .elemant104{grid-area: e104;}
+  .elemant105{grid-area: e105;}
+  .elemant106{grid-area: e106;}
+  .elemant107{grid-area: e107;}
+  .elemant108{grid-area: e108;}
+  .elemant109{grid-area: e109;}
+  .elemant110{grid-area: e110;}
+  .elemant111{grid-area: e111;}
+  .elemant112{grid-area: e112;}
+  .elemant113{grid-area: e113;}
+  .elemant114{grid-area: e114;}
+  .elemant115{grid-area: e115;}
+  .elemant116{grid-area: e116;}
+  .elemant117{grid-area: e117;}
+  .elemant118{grid-area: e118;}
+  .elemant119{grid-area: e119;}
+  .elemant120{grid-area: e120;}
+  
