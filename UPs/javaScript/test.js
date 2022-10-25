@@ -2,6 +2,7 @@ let x =" hello";
 var myName ="My name is mohammad";
 console.log("hi");
 
+
 onload = function () {
   document.querySelector("p").style.fontSize = "4rem";
   console.log(document.querySelectorAll("p"));
