@@ -1,0 +1,245 @@
+:root {
+    --white: #c0c0f0;
+    --primaryColor: #e446e7;
+    --BlueGreen: #3cf1e2;
+    --hover: #750c3d;
+    --darkBlueGreen: #318f79;
+    --blue: #4b44f0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    background-color: var(--white);
+    position: sticky;
+    justify-content: center;
+    top: 0;
+    padding: 1rem 3rem;
+    z-index: 1;
+}
+
+.hederContant {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--primaryColor);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.navigation {
+    margin: auto 0;
+}
+
+.navigation a {
+    color: var(--primaryColor);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: auto 12px;
+    margin: 0 8px;
+    transition: 0.5s ease;
+}
+
+.navigation a:hover {
+    color: var(--hover);
+    transform: calc(1.1);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.main {
+    max-width: 100vw;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/my_website/image/mainImg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    align-items: center;
+}
+
+.main>div {
+    padding-left: 4rem;
+    padding-bottom: 150px;
+}
+
+.main h2 {
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.main span {
+    display: inline-block;
+    color: var(--primaryColor);
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.main h1 {
+    color: var(--white);
+}
+
+.mainBtn {
+    color: var(--white);
+    background-color: var(--primaryColor);
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 1rem 1.4rem;
+    margin: 1.2rem 0;
+    transition: 0.7s ease;
+}
+
+.mainBtn:hover {
+    background-color: var(--hover);
+    transform: scale(1.2);
+}
+
+.socialIcons a {
+    color: var(--white);
+    font-size: 1.6rem;
+    margin-inline-start: 10px;
+    transition: 1s ease;
+}
+
+.title {
+    text-align: center;
+    color: var(--BlueGreen);
+    font-size: 1.6rem;
+    margin: 5rem 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.cards {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--BlueGreen);
+    flex-basis: 300px;
+    box-shadow: 0 5px 25px var(--darkBlueGreen);
+    padding: 24px;
+    border-radius: 12px;
+    transition: 0.7s ease;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+.card .icon {
+    color: var(--primaryColor);
+    font-size: 5rem;
+}
+
+.cardInfo h3 {
+    color: var(--primaryColor);
+    font-weight: 600;
+
+}
+
+.projectsSection {
+    background-color: var(--blue);
+    padding: 0 1rem;
+    padding-bottom: 2rem;
+    display: flex;
+    width: 100%;
+    max-width: 100vw;
+    min-height: 80vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.projectCard {
+    background-color: var(--white);
+/*     border: 1px solid var(--primaryColor); */
+    min-height: 160px;
+    width: 300px;
+    border-radius: 12px;
+    transition: 0.7s ease;
+}
+
+.projectCard:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.projectCardImg img {
+    width: 100%;
+    max-height: 200px;
+    border-radius: 8px;
+}
+
+.projectCardInfo {
+    padding: 1rem;
+
+}
+
+.projectTitle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: var(--blue);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem;
+    color: var(--white);
+    margin-top: 3rem;
+}
+.footerTitle{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.footerTitle span{
+    color: var(--primaryColor);
+}
+.cardInfo h3{
+    padding: 0.4 rem 0;
+}
